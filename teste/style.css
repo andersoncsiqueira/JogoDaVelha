@@ -1,0 +1,23 @@
+
+
+
+input {
+    background: gray;
+}
+
+input:empty {
+    background: black ;
+    
+}
+
+
+div{
+    background: gray;
+    width: 200px;
+    height: 200px;
+}
+
+div:empty {
+    background: black ;
+    
+}

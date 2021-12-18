@@ -1,0 +1,58 @@
+body {
+    background-image: url('https://i.pinimg.com/originals/5d/56/10/5d5610d5e8ffc54c697abfd0a48dcdc1.jpg');
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.matriz {
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-row: 1fr 1fr 1fr;
+
+    
+}
+
+.input {
+    width: 150px;
+    height: 150px;
+    font-size: 8em;
+
+}
+.button {
+    display: flex;
+    justify-content: center;
+}
+button {
+    margin: auto;
+}
+
+.x {
+    background: rgb(12, 54, 240);
+    text-align: center;
+}
+
+.o {
+    background: rgb(243, 228, 21);
+    text-align: center;
+}
+.lh1 {
+    background-image: linear-gradient(black,black, white, black,black);
+    color: brown;
+}
+
+.ltv1 {
+        background-image: linear-gradient(45deg,black,black, white, black,black);
+}
+
+.lv1 {
+    background-image: linear-gradient(270deg,black,black, white, black,black);
+}
+
+.ltv2 {
+    background-image: linear-gradient(315deg,black,black, white, black,black);
+}
