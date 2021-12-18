@@ -1,11 +1,14 @@
 body {
     background-image: url('https://i.pinimg.com/originals/5d/56/10/5d5610d5e8ffc54c697abfd0a48dcdc1.jpg');
+    display: block;
 }
 
 .box {
-    display: flex;
+    display: relative;
     justify-content: center;
     margin-top: 100px;
+    height: 500px;
+    
 }
 
 .matriz {
@@ -13,7 +16,10 @@ body {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-row: 1fr 1fr 1fr;
-
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
     
 }
 
@@ -26,6 +32,7 @@ body {
 .button {
     display: flex;
     justify-content: center;
+    margin-top: 700px;
 }
 button {
     margin: auto;
