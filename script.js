@@ -1,7 +1,7 @@
 
 
 const form = document.querySelector('.form')
-const button = document.querySelector('button')
+const button = document.querySelector('#button')
 const input1 = document.querySelector('#cx1')
 const input2 = document.querySelector('#cx2')
 const input3 = document.querySelector('#cx3')
@@ -146,13 +146,13 @@ const line1 = setInterval(()=> {
        input1.classList.add('lh1')
        input2.classList.add('lh1')
        input3.classList.add('lh1')
-       alert('Parabéns')
+       
        
     } else if (!input1.classList.contains('nullo') && !input2.classList.contains('nullo') && !input3.classList.contains('nullo')){
         input1.classList.add('lh1')
        input2.classList.add('lh1')
        input3.classList.add('lh1')
-       alert('Parabéns')
+       
     }
     
 }, 1)
@@ -252,7 +252,9 @@ const ltv2 = setInterval(()=> {
     }
 }, 1)
 
-
+button.addEventListener('click', event => {
+    location.reload()
+})
      
 
 
