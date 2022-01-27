@@ -35,6 +35,10 @@ header {
     transform: translate(-50%,-50%);
 
 }
+
+.button:hover {
+    background-color: rgb(243, 240, 42);
+}
 .input {
     width: 250px;
     height: 250px;
