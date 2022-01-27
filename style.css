@@ -24,8 +24,8 @@ body {
 }
 
 .input {
-    width: 150px;
-    height: 150px;
+    width: 250px;
+    height: 250px;
     font-size: 8em;
     text-align: center;
 
@@ -47,8 +47,9 @@ button {
     color: rgb(21, 255, 0);
     background-color: rgb(4, 4, 37);
     border-radius: 75px;
-    width: 55px;
-    height: 55px;
+    width: 75px;
+    height: 75px;
+    font-size: 35px;
     
 }
 
@@ -86,54 +87,54 @@ button {
  }
  .buttons {
      position: absolute;
-     top: 90px;
-     left: 25px;
+     top: 170px;
+     left: 60px;
  }
 
  .buttons2 {
     position: absolute;
-    top: 90px;
-    left: 185px;
+    top: 170px;
+    left: 315px;
 }
 
 .buttons3 {
     position: absolute;
-    top: 90px;
-    left: 345px;
+    top: 170px;
+    left: 580px;
 }
 
 .buttons4 {
     position: absolute;
-    top: 245px;
-    left: 25px;
+    top: 430px;
+    left: 60px;
 }
 
 .buttons5 {
     position: absolute;
-    top: 245px;
-    left: 185px;
+    top: 430px;
+    left: 315px;
 }
 
 .buttons6 {
     position: absolute;
-    top: 245px;
-    left: 345px;
+    top: 430px;
+    left: 580px;
 }
 
 .buttons7 {
     position: absolute;
-    top: 400px;
-    left: 25px;
+    top: 680px;
+    left: 60px;
 }
 
 .buttons8 {
     position: absolute;
-    top: 400px;
-    left: 185px;
+    top: 680px;
+    left: 315px;
 }
 
 .buttons9 {
     position: absolute;
-    top: 400px;
-    left: 345px;
+    top: 680px;
+    left: 580px;
 }
