@@ -10,6 +10,9 @@ body {
     height: 500px;
     
 }
+header {
+    margin: auto;
+}
 
 .matriz {
     
@@ -22,7 +25,16 @@ body {
     transform: translate(-50%,-50%);
     
 }
+.button {
+    
+    height: 150px;
+    width: 150px;
+    position: absolute;
+    left: 50%;
+    top: 13%;
+    transform: translate(-50%,-50%);
 
+}
 .input {
     width: 250px;
     height: 250px;
@@ -34,14 +46,7 @@ body {
 .off {
     display: none;
 }
-.button {
-    display: flex;
-    justify-content: center;
-    margin-top: 700px;
-}
-button {
-    margin: auto;
-}
+
 
 .butts {
     color: rgb(21, 255, 0);

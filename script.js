@@ -34,6 +34,11 @@ const inputs = [input1,input2,input3,input4,input5,input6,input7,input8,input9]
 const arrayX = [buttonX1,buttonX2,buttonX3,buttonX4,buttonX5,buttonX6,buttonX7,buttonX8,buttonX9]
 const arrayO = [buttonO1,buttonO2,buttonO3,buttonO4,buttonO5,buttonO6,buttonO7,buttonO8,buttonO9]
 
+const refrsh = document.querySelector('#refresh')
+refrsh.addEventListener('click', event => {
+    console.log('oi')
+    document.location.reload()
+})
 
 const putX = (buttan, index )=> buttan.addEventListener('click', event => {
     event.preventDefault()
