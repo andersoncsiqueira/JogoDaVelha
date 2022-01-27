@@ -1,6 +1,5 @@
 
 const form  = document.querySelector('.form')
-const button = document.querySelector('#button')
 const input1 = document.querySelector('#cx1')
 const input2 = document.querySelector('#cx2')
 const input3 = document.querySelector('#cx3')
@@ -75,12 +74,15 @@ const line1 = setInterval(()=> {
        input3.classList.add('lh1')
        
        
-       
+       clearInterval(line1)
+       alert('Jogador X ganhou! Atualize e recomece o jogo')
     } else if (!input1.classList.contains('nullo') && !input2.classList.contains('nullo') && !input3.classList.contains('nullo')){
         input1.classList.add('lh1')
        input2.classList.add('lh1')
        input3.classList.add('lh1')
        
+       clearInterval(line1)
+       alert('Jogador O ganhou! Atualize e recomece o jogo')
     }
     
 }, 1)
@@ -91,10 +93,16 @@ const line2 = setInterval(()=> {
        input5.classList.add('lh1')
        input6.classList.add('lh1')
 
+       clearInterval(line2)
+       alert('Jogador X ganhou! Atualize e recomece o jogo')
+
     } else if (!input4.classList.contains('nullo') && !input5.classList.contains('nullo') && !input6.classList.contains('nullo')){
         input4.classList.add('lh1')
        input5.classList.add('lh1')
        input6.classList.add('lh1')
+
+       clearInterval(line2)
+       alert('Jogador O ganhou! Atualize e recomece o jogo')
     }
 }, 1)
 
@@ -104,10 +112,16 @@ const line3 = setInterval(()=> {
        input8.classList.add('lh1')
        input9.classList.add('lh1')
 
+       clearInterval(line3)
+       alert('Jogador X ganhou! Atualize e recomece o jogo')
+
     } else if (!input7.classList.contains('nullo') && !input8.classList.contains('nullo') && !input9.classList.contains('nullo')){
         input7.classList.add('lh1')
        input8.classList.add('lh1')
        input9.classList.add('lh1')
+
+       clearInterval(line3)
+       alert('Jogador O ganhou! Atualize e recomece o jogo')
     }
 }, 1)
 
@@ -116,6 +130,9 @@ const col1 = setInterval(()=> {
        input1.classList.add('lv1')
        input4.classList.add('lv1')
        input7.classList.add('lv1')
+
+       clearInterval(col1)
+       alert('Jogador X ganhou! Atualize e recomece o jogo')
        
        
     } else if (!input1.classList.contains('nullo') && !input4.classList.contains('nullo') && !input7.classList.contains('nullo')){
@@ -123,6 +140,8 @@ const col1 = setInterval(()=> {
        input4.classList.add('lv1')
        input7.classList.add('lv1')
        
+       clearInterval(col1)
+       alert('Jogador O ganhou! Atualize e recomece o jogo')
     }
 
     
@@ -134,10 +153,16 @@ const col2 = setInterval(()=> {
        input5.classList.add('lv1')
        input8.classList.add('lv1')
 
+       clearInterval(col2)
+       alert('Jogador X ganhou! Atualize e recomece o jogo')
+
     } else if (!input2.classList.contains('nullo') && !input5.classList.contains('nullo') && !input8.classList.contains('nullo')){
         input2.classList.add('lv1')
        input5.classList.add('lv1')
        input8.classList.add('lv1')
+
+       clearInterval(col2)
+       alert('Jogador O ganhou! Atualize e recomece o jogo')
     }
 }, 1)
 
@@ -147,10 +172,16 @@ const col3 = setInterval(()=> {
        input6.classList.add('lv1')
        input9.classList.add('lv1')
 
+       clearInterval(col3)
+       alert('Jogador X ganhou! Atualize e recomece o jogo')
+
     } else if (!input3.classList.contains('nullo') && !input6.classList.contains('nullo') && !input9.classList.contains('nullo')){
         input3.classList.add('lv1')
        input6.classList.add('lv1')
        input9.classList.add('lv1')
+
+       clearInterval(col3)
+       alert('Jogador O ganhou! Atualize e recomece o jogo')
     }
 }, 1)
 
@@ -160,10 +191,16 @@ const ltv1 = setInterval(()=> {
        input5.classList.add('ltv1')
        input9.classList.add('ltv1')
 
+       clearInterval(ltv1)
+       alert('Jogador X ganhou! Atualize e recomece o jogo')
+
     } else if (!input1.classList.contains('nullo') && !input5.classList.contains('nullo') && !input9.classList.contains('nullo')){
         input1.classList.add('ltv1')
        input5.classList.add('ltv1')
        input9.classList.add('ltv1')
+
+       clearInterval(ltv1)
+       alert('Jogador O ganhou! Atualize e recomece o jogo')
     }
 }, 1)
 
@@ -173,17 +210,20 @@ const ltv2 = setInterval(()=> {
        input5.classList.add('ltv2')
        input7.classList.add('ltv2')
 
+       clearInterval(ltv2)
+       alert('Jogador X ganhou! Atualize e recomece o jogo')
+
     } else if (!input3.classList.contains('nullo') && !input5.classList.contains('nullo') && !input7.classList.contains('nullo')){
         input3.classList.add('ltv2')
        input5.classList.add('ltv2')
        input7.classList.add('ltv2')
+
+       clearInterval(ltv2)
+       alert('Jogador O ganhou! Atualize e recomece o jogo')
     }
 }, 1)
 
-button.addEventListener('click', event => {
-    location.reload()
-})
-     
+
 
 
 
