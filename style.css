@@ -27,7 +27,12 @@ body {
     width: 150px;
     height: 150px;
     font-size: 8em;
+    text-align: center;
 
+}
+
+.off {
+    display: none;
 }
 .button {
     display: flex;
@@ -62,4 +67,64 @@ button {
 
 .ltv2 {
     background-image: linear-gradient(315deg,black,black, white, black,black);
+}
+
+ /* butões das caixas */ 
+
+
+ .container {
+     height: 155,90;
+ }
+ .buttons {
+     position: absolute;
+     top: 130px;
+     left: 50px;
+ }
+
+ .buttons2 {
+    position: absolute;
+    top: 130px;
+    left: 210px;
+}
+
+.buttons3 {
+    position: absolute;
+    top: 130px;
+    left: 370px;
+}
+
+.buttons4 {
+    position: absolute;
+    top: 285px;
+    left: 50px;
+}
+
+.buttons5 {
+    position: absolute;
+    top: 285px;
+    left: 210px;
+}
+
+.buttons6 {
+    position: absolute;
+    top: 285px;
+    left: 370px;
+}
+
+.buttons7 {
+    position: absolute;
+    top: 440px;
+    left: 50px;
+}
+
+.buttons8 {
+    position: absolute;
+    top: 440px;
+    left: 210px;
+}
+
+.buttons9 {
+    position: absolute;
+    top: 440px;
+    left: 370px;
 }
