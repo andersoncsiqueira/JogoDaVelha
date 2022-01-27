@@ -49,7 +49,9 @@ button {
     border-radius: 75px;
     width: 75px;
     height: 75px;
-    font-size: 35px;
+    font-size: 40px;
+    padding: 10px;
+    margin: 10px;
     
 }
 
@@ -87,54 +89,54 @@ button {
  }
  .buttons {
      position: absolute;
-     top: 170px;
-     left: 60px;
+     top: 160px;
+     left: 40px;
  }
 
  .buttons2 {
     position: absolute;
-    top: 170px;
-    left: 315px;
+    top: 160px;
+    left: 300px;
 }
 
 .buttons3 {
     position: absolute;
-    top: 170px;
-    left: 580px;
+    top: 160px;
+    left: 560px;
 }
 
 .buttons4 {
     position: absolute;
-    top: 430px;
-    left: 60px;
+    top: 415px;
+    left: 40px;
 }
 
 .buttons5 {
     position: absolute;
-    top: 430px;
-    left: 315px;
+    top: 415px;
+    left: 300px;
 }
 
 .buttons6 {
     position: absolute;
-    top: 430px;
-    left: 580px;
+    top: 415px;
+    left: 560px;
 }
 
 .buttons7 {
     position: absolute;
-    top: 680px;
-    left: 60px;
+    top: 670px;
+    left: 40px;
 }
 
 .buttons8 {
     position: absolute;
-    top: 680px;
-    left: 315px;
+    top: 670px;
+    left: 300px;
 }
 
 .buttons9 {
     position: absolute;
-    top: 680px;
-    left: 580px;
+    top: 670px;
+    left: 560px;
 }
